@@ -9,7 +9,7 @@ import cz.zpapez.springfeignclients.slack.dto.SlackMessageRequestDto;
 import cz.zpapez.springfeignclients.slack.dto.SlackMessageResponseDto;
 
 
-@FeignClient(name = "Slack", url = "${slack.baseUrl}", configuration = SlackClientConfiguration.class)
+@FeignClient(name = "Slack", url = "${slack.baseUrl}", configuration = SlackFeignClientConfiguration.class)
 public interface SlackFeignClient {
 
     @RequestMapping(

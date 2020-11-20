@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "channel": "ABC9876",
+  "ts": "1599582651.000700",
+  "message": {
+    "bot_id": "BOT1234",
+    "type": "message",
+    "text": "test message",
+    "user": "XYZ1234",
+    "ts": "1599582651.000700",
+    "team": "T456789",
+    "bot_profile": {
+      "id": "BOT1234",
+      "deleted": false,
+      "name": "My App",
+      "updated": 1598946123,
+      "app_id": "ABC1234",
+      "icons": {
+      },
+      "team_id": "T456789"
+    }
+  },
+  "warning": "missing_charset",
+  "response_metadata": {
+    "warnings": [
+      "missing_charset"
+    ]
+  }
+}

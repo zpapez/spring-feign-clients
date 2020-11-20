@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import feign.RequestInterceptor;
 import feign.RequestTemplate;
 
-public class SlackClientConfiguration {
+public class SlackFeignClientConfiguration {
 
     @Value("${slack.app.oauth.accessToken}")
     private String slackOauthAccessToken;
