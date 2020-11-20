@@ -1,0 +1,15 @@
+logging.level.cz.zpapez.springfeignclients.zephyr.ZephyrFeignClient: DEBUG
+logging.level.cz.zpapez.springfeignclients.slack.SlackFeignClient: DEBUG
+
+slack:
+  baseUrl: https://slack.com/api
+  app:
+    oauth:
+      accessToken: ${SLACK_AUTH_TOKEN:slackOAuthToken}
+      
+      
+zephyr:
+  api:
+    baseUrl: https://jira.my-company.com/jira/rest/zapi/latest
+    username: ${JIRA_API_USERNAME:jiraApiUsername}
+    password: ${JIRA_API_PASSWORD:jiraApiPassword}
