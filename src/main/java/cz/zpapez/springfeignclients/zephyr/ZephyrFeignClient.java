@@ -11,7 +11,6 @@ import cz.zpapez.springfeignclients.zephyr.dto.ExecutionListResponseDto;
 @FeignClient(name = "Zephyr", url = "${zephyr.api.baseUrl}", configuration = ZephyrFeignClientConfiguration.class)
 public interface ZephyrFeignClient {
 
-
     @RequestMapping(
             value = "/execution",
             method = RequestMethod.GET)
